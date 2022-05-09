@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(43, 40, 48);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.watchContainer {
+  background-color: rgb(92, 98, 118);
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 50%;
+  color: #fff;
+  border: 3px solid rgb(214, 117, 6);
+  width: 90px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.buttonsContainer button {
+  background-color: rgb(92, 98, 118);
+  margin: 10px;
+  color: #fff;
+  border: 2px solid rgb(214, 117, 6);
+  border-radius: 10px;
+}
+.watchContainer span {
+  background-color: rgb(92, 98, 118);
+}
