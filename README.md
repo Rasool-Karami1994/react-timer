@@ -1,4 +1,4 @@
-# NOTE-APP Project
+# React-Timer
 
 An application used to add, edit and delete notes, built with vanila JavaScript, and CSS.
 
